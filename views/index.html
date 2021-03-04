@@ -1,0 +1,45 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A cool thing made with Glitch" />
+
+    <title>Welcome to Glitch!</title>
+
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Reset bot</h1>
+    </header>
+    <p>
+      come here to reset/cancel a long loop.
+    </p>
+
+    <form>
+      <!--         <label>
+          New Dream
+          <input name="dream" type="text" maxlength="100" required placeholder="Dreams!">
+        </label> -->
+      <button type="submit" id="submit-dream" onclick="appendNewDream()">
+        Reset
+      </button>
+    </form>
+
+    <footer>Made with <a href="https://glitch.com">Glitch</a>!</footer>
+  </body>
+</html>
