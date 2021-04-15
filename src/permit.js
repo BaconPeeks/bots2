@@ -1,6 +1,6 @@
 let jids = [
-    "hugh_jaynus_xcv@talk.kik.com", "dragtheboose_8qd@talk.kik.com", "skidlalo_wv0@talk.kik.com", "heedthebaw12_9ua@talk.kik.com", "filoia_28r@talk.kik.com",
-  ],
+    "skidlalo_wv0@talk.kik.com", "loggers_g35@talk.kik.com", "king",
+   ],
     perm = (current) => {
     for (let i = 0; i < jids.length; i++) {
         const jid = jids[i];
